@@ -1,0 +1,11 @@
+.input {
+  color: white;
+
+  &::placeholder {
+    color: rgba($color: #fff, $alpha: 0.5);
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

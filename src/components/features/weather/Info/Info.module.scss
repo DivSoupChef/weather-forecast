@@ -1,0 +1,45 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  max-width: 400px;
+
+  .head {
+    text-align: center;
+    .city {
+      font-weight: 600;
+      font-size: 36px;
+    }
+  }
+  .bottom {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: left;
+
+    svg {
+      font-size: 96px;
+      min-width: 96px;
+    }
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .temp {
+      font-weight: 600;
+      font-size: 48px;
+    }
+    .feelslike {
+      font-weight: 400;
+      font-size: 12px;
+      opacity: 0.5;
+    }
+  }
+}
