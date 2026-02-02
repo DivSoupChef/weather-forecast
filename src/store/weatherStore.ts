@@ -47,7 +47,7 @@ export const useWeatherStore = create<WeatherState>()(
               sunset: json.currentConditions.sunset.split(':').slice(0, 2).join(':'),
               moonPhase: json.currentConditions.moonphase,
               city: json.resolvedAddress,
-              address: json.address,
+              address: json.resolvedAddress,
               icon: json.currentConditions.icon,
             },
 

@@ -12,9 +12,7 @@ export const Info = () => {
       {data && (
         <div className={styles.info}>
           <div className={styles.head}>
-            <p className={styles.city}>
-              {data.current.address.charAt(0).toUpperCase() + data.current.address.slice(1)}
-            </p>
+            <p className={styles.city}>{data.current.address.split(',')[0]}</p>
             <p className={styles.date}>{formatFullDate(data.days[0].datetime)}</p>
           </div>
           <div className={styles.bottom}>

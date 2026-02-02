@@ -19,8 +19,22 @@
   background: rgba(81, 81, 81, 0.2);
   color: white;
 
+  transition: all 0.3s ease;
+
+  input {
+    width: 100%;
+  }
+
   svg {
     font-size: 24px;
     min-width: 24px;
+  }
+
+  &:hover {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  &:focus-within {
+    border: 1px solid rgba(255, 255, 255, 0.6);
   }
 }

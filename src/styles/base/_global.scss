@@ -27,6 +27,10 @@ body {
   color: white;
 }
 
+::selection {
+  background: rgba(30, 30, 34, 0.7);
+}
+
 svg {
   display: block;
 }
